@@ -64,3 +64,8 @@ head_addon = r'''
 footer_addon = ''
 
 body_addon = ''
+
+enable_jsdelivr = {
+    "enabled": True,
+    "repo": "william-han-wang/Blog-With-GitHub-Boilerplate@gh-pages"
+}
