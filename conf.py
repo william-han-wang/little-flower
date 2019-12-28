@@ -37,13 +37,13 @@ nav = [
         "target": "_self"
     },
     {
-        "name": "归档",
-        "url": "${site_prefix}archives/",
-        "target": "_self"
-    },
-    {
         "name": "关于",
         "url": "${site_prefix}about/",
+        "target": "_self"
+    }
+    {
+        "name": "归档",
+        "url": "${site_prefix}archives/",
         "target": "_self"
     }
 ]
@@ -65,4 +65,13 @@ footer_addon = ''
 
 body_addon = ''
 
-
+valine = {
+    "enable": True,
+    "appId": "<your appId here>",
+    "appKey": "<your appKey here>",
+    "notify": "false",
+    "visitor": "false",
+    "recordIP": "false",
+    "serverURLs": None,
+    "placeholder": "Just go go~"
+}
