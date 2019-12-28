@@ -1,4 +1,4 @@
-#！/bin/sh
+#!/bin/bash
 
 git add .
 git commit -m "Update my site"
