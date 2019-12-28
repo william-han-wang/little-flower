@@ -9,8 +9,8 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": True,
+    "repo": "william-han-wang/LittleFlower@gh-pages"
 }
 
 # 站点设置
@@ -65,7 +65,4 @@ footer_addon = ''
 
 body_addon = ''
 
-enable_jsdelivr = {
-    "enabled": True,
-    "repo": "william-han-wang/Blog-With-GitHub-Boilerplate@gh-pages"
-}
+
