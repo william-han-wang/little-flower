@@ -3,14 +3,14 @@
 """
 
 # For Maverick
-site_prefix = "/LittleFlower/"
+site_prefix = "/little-flower/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": False,
-    "repo": "william-han-wang/LittleFlower@gh-pages"
+    "repo": "william-han-wang/little-flower@gh-pages"
 }
 
 # 站点设置
