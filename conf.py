@@ -65,13 +65,13 @@ footer_addon = ''
 
 body_addon = ''
 
-# valine = {
-#     "enable": True,
-#     "appId": "<your appId here>",
-#     "appKey": "<your appKey here>",
-#     "notify": "false",
-#     "visitor": "false",
-#     "recordIP": "false",
-#     "serverURLs": None,
-#     "placeholder": "Just go go~"
-# }
+valine = {
+    "enable": True,
+    "appId": "<Uey4o08sIktXtBQHe9h62BlP-gzGzoHsz>",
+    "appKey": "<cJmWOSNH5jXyGrQMBCmTHCNt>",
+    "notify": "false",
+    "visitor": "false",
+    "recordIP": "false",
+    "serverURLs": None,
+    "placeholder": "Just comment~"
+}
