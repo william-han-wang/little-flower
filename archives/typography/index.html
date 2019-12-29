@@ -199,6 +199,23 @@
 
 
     
+        <script>
+            var initValine = function () {
+                new Valine({
+                    el: '#vcomments',
+                    appId: '<Uey4o08sIktXtBQHe9h62BlP-gzGzoHsz>',
+                    appKey: '<cJmWOSNH5jXyGrQMBCmTHCNt>',
+                    placeholder: 'Just comment~',
+                    notify: false,
+                    visitor: false,
+                    
+                    recordIP: false
+                });
+            }
+        </script>
+        <script defer src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js' onload="initValine()"></script>
+        <div id="vcomments"></div>
+    
 
 </main>
 
